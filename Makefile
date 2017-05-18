@@ -6,6 +6,7 @@ INSTALL = /usr/bin/install
 INSTALL_PROGRAM = $(INSTALL)
 INSTALL_DATA = $(INSTALL) -m 644
 prefix = /usr/local
+exec_prefix = $(prefix)
 bindir = $(exec_prefix)/bin
 
 .PHONY: default help clean
